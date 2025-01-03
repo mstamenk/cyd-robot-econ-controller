@@ -1,0 +1,983 @@
+2025-01-01 01:20:38,001 - INFO - Server script started.
+2025-01-01 01:20:38,002 - INFO - Starting command listener.
+2025-01-01 01:20:38,011 - INFO - Connected to /dev/tty.usbserial-110
+2025-01-01 01:20:52,109 - INFO - Received command: PING
+2025-01-01 01:20:52,110 - INFO - Sending PONG response.
+2025-01-01 01:20:58,122 - INFO - Received command: INIT_SOCKET_A
+2025-01-01 01:20:58,171 - INFO - Stopping job locally with PID 66270.
+2025-01-01 01:20:59,176 - INFO - Restarting the Hexa job locally.
+2025-01-01 01:20:59,187 - INFO - INIT_SOCKET_A result: OK_A
+2025-01-01 01:21:04,124 - INFO - Received command: INIT_SOCKET_B
+2025-01-01 01:21:04,169 - INFO - Stopping job locally with PID 66707.
+2025-01-01 01:21:05,174 - INFO - Restarting the Hexa job locally.
+2025-01-01 01:21:05,183 - INFO - INIT_SOCKET_B result: OK_B
+2025-01-01 01:21:10,123 - INFO - Received command: CHECK_GPIB
+2025-01-01 01:21:10,169 - INFO - GPIB server is running.
+2025-01-01 01:21:10,169 - INFO - CHECK_GPIB result: GPIB_OK
+2025-01-01 01:21:21,876 - INFO - Received command: START,A: ECOND - 1 2 3 4 - 1,B: ECOND - 5 6 7 8 - 1
+2025-01-01 01:21:21,876 - INFO - Processing START command with config_a: A: ECOND - 1 2 3 4 - 1, config_b: B: ECOND - 5 6 7 8 - 1
+2025-01-01 01:21:21,897 - INFO - Script is already running.
+2025-01-01 01:21:31,466 - INFO - Received command: KILL
+2025-01-01 01:21:31,466 - INFO - Processing KILL command.
+2025-01-01 01:21:31,484 - INFO - Killed process with PID 66311.
+2025-01-01 01:21:40,956 - INFO - Received command: START,A: ECOND - 1 2 3 4 - 1,B: ECOND - 5 6 7 8 - 1
+2025-01-01 01:21:40,956 - INFO - Processing START command with config_a: A: ECOND - 1 2 3 4 - 1, config_b: B: ECOND - 5 6 7 8 - 1
+2025-01-01 01:21:40,976 - INFO - Started script with command: nohup ./run_robot_chip_2hexa.py --trays_a 1,2,3,4 --trays_b 5,6,7,8 --chip_number_start_a 1 --chip_number_start_b 1 &
+2025-01-01 01:22:00,789 - INFO - Received command: PING
+2025-01-01 01:22:00,789 - INFO - Sending PONG response.
+2025-01-01 01:22:06,792 - INFO - Received command: INIT_SOCKET_A
+2025-01-01 01:22:06,840 - INFO - Stopping job locally with PID 66735.
+2025-01-01 01:22:07,845 - INFO - Restarting the Hexa job locally.
+2025-01-01 01:22:07,857 - INFO - INIT_SOCKET_A result: OK_A
+2025-01-01 01:22:12,794 - INFO - Received command: INIT_SOCKET_B
+2025-01-01 01:22:12,838 - INFO - Stopping job locally with PID 66836.
+2025-01-01 01:22:13,843 - INFO - Restarting the Hexa job locally.
+2025-01-01 01:22:13,853 - INFO - INIT_SOCKET_B result: OK_B
+2025-01-01 01:22:18,793 - INFO - Received command: CHECK_GPIB
+2025-01-01 01:22:18,839 - INFO - GPIB server is running.
+2025-01-01 01:22:18,839 - INFO - CHECK_GPIB result: GPIB_OK
+2025-01-01 01:22:31,156 - INFO - Received command: START,A: ECOND - 1 2 3 4 - 1,B: ECOND - 5 6 7 8 - 1
+2025-01-01 01:22:31,156 - INFO - Processing START command with config_a: A: ECOND - 1 2 3 4 - 1, config_b: B: ECOND - 5 6 7 8 - 1
+2025-01-01 01:22:31,173 - INFO - Script is already running.
+2025-01-01 20:24:38,183 - INFO - Server script started.
+2025-01-01 20:24:38,185 - INFO - Starting command listener.
+2025-01-01 20:24:38,195 - INFO - Connected to /dev/tty.usbserial-110
+2025-01-01 20:24:48,804 - INFO - Closing serial connection...
+2025-01-01 20:24:48,806 - INFO - Exiting the server script.
+2025-01-01 20:26:34,000 - INFO - Server script started.
+2025-01-01 20:26:34,001 - INFO - Starting command listener.
+2025-01-01 20:26:34,008 - INFO - Connected to /dev/tty.usbserial-110
+2025-01-01 20:26:49,482 - INFO - Received command: PING
+2025-01-01 20:26:49,482 - INFO - Sending PONG response.
+2025-01-01 20:26:55,485 - INFO - Received command: INIT_SOCKET_A
+2025-01-01 20:28:50,973 - INFO - Server script started.
+2025-01-01 20:28:50,975 - INFO - Starting command listener.
+2025-01-01 20:28:50,980 - INFO - Connected to /dev/tty.usbserial-110
+2025-01-01 20:29:05,482 - INFO - Received command: PING
+2025-01-01 20:29:05,482 - INFO - Sending PONG response.
+2025-01-01 20:29:11,485 - INFO - Received command: INIT_SOCKET_A
+2025-01-01 20:29:11,548 - INFO - Stopping job locally with PID 66853.
+2025-01-01 20:29:12,554 - INFO - Restarting the Hexa job locally.
+2025-01-01 20:29:12,564 - INFO - INIT_SOCKET_A result: OK_A
+2025-01-01 20:29:17,488 - INFO - Received command: INIT_SOCKET_B
+2025-01-01 20:29:17,537 - INFO - Stopping job locally with PID 3638.
+2025-01-01 20:29:18,543 - INFO - Restarting the Hexa job locally.
+2025-01-01 20:29:18,554 - INFO - INIT_SOCKET_B result: OK_B
+2025-01-01 20:29:23,486 - INFO - Received command: CHECK_GPIB
+2025-01-01 20:29:23,538 - INFO - GPIB server is running.
+2025-01-01 20:29:23,538 - INFO - CHECK_GPIB result: GPIB_OK
+2025-01-01 20:29:32,490 - INFO - Received command: START,A: ECOND - 1 2 3 4 - 1,B: ECOND - 5 6 7 8 - 1
+2025-01-01 20:29:32,490 - INFO - Processing START command with config_a: A: ECOND - 1 2 3 4 - 1, config_b: B: ECOND - 5 6 7 8 - 1
+2025-01-01 20:29:32,508 - INFO - Script is already running.
+2025-01-01 20:29:41,720 - INFO - Received command: KILL
+2025-01-01 20:29:41,720 - INFO - Processing KILL command.
+2025-01-01 20:29:41,733 - INFO - Killed process with PID 66795.
+2025-01-01 20:29:52,850 - INFO - Received command: START,A: ECOND - 1 2 3 4 - 1,B: ECOND - 5 6 7 8 - 1
+2025-01-01 20:29:52,850 - INFO - Processing START command with config_a: A: ECOND - 1 2 3 4 - 1, config_b: B: ECOND - 5 6 7 8 - 1
+2025-01-01 20:29:52,867 - INFO - Started script with command: nohup ./run_robot_chip_2hexa.py --trays_a 1,2,3,4 --trays_b 5,6,7,8 --chip_number_start_a 1 --chip_number_start_b 1 &
+2025-01-01 20:30:15,803 - INFO - Received command: PING
+2025-01-01 20:30:15,803 - INFO - Sending PONG response.
+2025-01-01 20:30:21,816 - INFO - Received command: INIT_SOCKET_A
+2025-01-01 20:30:21,866 - INFO - Stopping job locally with PID 3656.
+2025-01-01 20:30:22,871 - INFO - Restarting the Hexa job locally.
+2025-01-01 20:30:22,883 - INFO - INIT_SOCKET_A result: OK_A
+2025-01-01 20:30:27,818 - INFO - Received command: INIT_SOCKET_B
+2025-01-01 20:30:27,869 - INFO - Stopping job locally with PID 3758.
+2025-01-01 20:30:28,875 - INFO - Restarting the Hexa job locally.
+2025-01-01 20:30:28,889 - INFO - INIT_SOCKET_B result: OK_B
+2025-01-01 20:30:33,827 - INFO - Received command: CHECK_GPIB
+2025-01-01 20:30:33,873 - INFO - GPIB server is running.
+2025-01-01 20:30:33,873 - INFO - CHECK_GPIB result: GPIB_OK
+2025-01-01 20:30:42,089 - INFO - Received command: START,A: ECOND - 1 2 3 4 - 1,B: ECOND - 5 6 7 8 - 1
+2025-01-01 20:30:42,090 - INFO - Processing START command with config_a: A: ECOND - 1 2 3 4 - 1, config_b: B: ECOND - 5 6 7 8 - 1
+2025-01-01 20:30:42,105 - INFO - Script is already running.
+2025-01-01 20:30:49,680 - INFO - Received command: KILL
+2025-01-01 20:30:49,680 - INFO - Processing KILL command.
+2025-01-01 20:30:49,692 - INFO - Killed process with PID 3714.
+2025-01-01 20:30:58,250 - INFO - Received command: START,A: ECOND - 1 2 3 4 - 1,B: ECOND - 5 6 7 8 - 1
+2025-01-01 20:30:58,250 - INFO - Processing START command with config_a: A: ECOND - 1 2 3 4 - 1, config_b: B: ECOND - 5 6 7 8 - 1
+2025-01-01 20:30:58,265 - INFO - Started script with command: nohup ./run_robot_chip_2hexa.py --trays_a 1,2,3,4 --trays_b 5,6,7,8 --chip_number_start_a 1 --chip_number_start_b 1 &
+2025-01-01 20:31:33,179 - ERROR - Received non-UTF-8 message: b"x\xb9'\x04\x01\x84L\xc6\xf5\x8a\xa4\xa1\xd1H \x85\xb8}\xa61B\xf5"
+2025-01-01 20:31:35,193 - ERROR - Received non-UTF-8 message: b'\x05!\xf13\xff'
+2025-01-01 20:33:02,399 - INFO - Server script started.
+2025-01-01 20:33:02,400 - INFO - Starting command listener.
+2025-01-01 20:33:02,408 - INFO - Connected to /dev/tty.usbserial-110
+2025-01-01 20:33:12,082 - INFO - Received command: PING
+2025-01-01 20:33:12,083 - INFO - Sending PONG response.
+2025-01-01 20:33:18,095 - INFO - Received command: INIT_SOCKET_A
+2025-01-01 20:33:18,149 - INFO - Stopping job locally with PID 3770.
+2025-01-01 20:33:19,155 - INFO - Restarting the Hexa job locally.
+2025-01-01 20:33:19,169 - INFO - INIT_SOCKET_A result: OK_A
+2025-01-01 20:33:24,098 - INFO - Received command: INIT_SOCKET_B
+2025-01-01 20:33:24,146 - INFO - Stopping job locally with PID 4078.
+2025-01-01 20:33:25,151 - INFO - Restarting the Hexa job locally.
+2025-01-01 20:33:25,164 - INFO - INIT_SOCKET_B result: OK_B
+2025-01-01 20:33:30,096 - INFO - Received command: CHECK_GPIB
+2025-01-01 20:33:30,145 - INFO - GPIB server is running.
+2025-01-01 20:33:30,145 - INFO - CHECK_GPIB result: GPIB_OK
+2025-01-01 20:33:39,369 - INFO - Received command: START,A: ECOND - 1 2 3 4 - 1,B: ECOND - 5 6 7 8 - 1
+2025-01-01 20:33:39,369 - INFO - Processing START command with config_a: A: ECOND - 1 2 3 4 - 1, config_b: B: ECOND - 5 6 7 8 - 1
+2025-01-01 20:33:39,385 - INFO - Script is already running.
+2025-01-01 20:33:46,600 - INFO - Received command: KILL
+2025-01-01 20:33:46,600 - INFO - Processing KILL command.
+2025-01-01 20:33:46,612 - INFO - Killed process with PID 3820.
+2025-01-01 20:33:54,050 - INFO - Received command: START,A: ECOND - 1 2 3 4 - 1,B: ECOND - 5 6 7 8 - 1
+2025-01-01 20:33:54,050 - INFO - Processing START command with config_a: A: ECOND - 1 2 3 4 - 1, config_b: B: ECOND - 5 6 7 8 - 1
+2025-01-01 20:33:54,065 - INFO - Started script with command: nohup ./run_robot_chip_2hexa.py --trays_a 1,2,3,4 --trays_b 5,6,7,8 --chip_number_start_a 1 --chip_number_start_b 1 &
+2025-01-01 20:34:06,453 - ERROR - Device error: [Errno 6] Device not configured. Attempting to reconnect...
+2025-01-01 20:34:06,453 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-01 20:34:09,459 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-01 20:34:12,475 - INFO - Connected to /dev/tty.usbserial-110
+2025-01-01 20:34:13,773 - ERROR - Received non-UTF-8 message: b'\x88\x08\x88\xff'
+2025-01-01 20:34:18,230 - ERROR - Device error: [Errno 6] Device not configured. Attempting to reconnect...
+2025-01-01 20:34:18,230 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-01 20:34:21,235 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-01 20:34:24,254 - INFO - Connected to /dev/tty.usbserial-110
+2025-01-01 20:34:26,478 - ERROR - Received non-UTF-8 message: b'\x05\x08\xc8\xc4\xb2'
+2025-01-01 20:34:49,461 - ERROR - Device error: [Errno 6] Device not configured. Attempting to reconnect...
+2025-01-01 20:34:49,461 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-01 20:34:52,467 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-01 20:34:55,484 - INFO - Connected to /dev/tty.usbserial-110
+2025-01-01 20:34:56,523 - ERROR - Received non-UTF-8 message: b'(\xe88\xff'
+2025-01-01 20:34:58,933 - ERROR - Device error: [Errno 6] Device not configured. Attempting to reconnect...
+2025-01-01 20:34:58,934 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-01 20:35:01,939 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-01 20:35:04,942 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-01 20:35:07,005 - INFO - Exiting the server script.
+2025-01-02 19:07:22,067 - INFO - Server script started.
+2025-01-02 19:07:22,068 - INFO - Starting command listener.
+2025-01-02 19:07:22,080 - INFO - Connected to /dev/tty.usbserial-110
+2025-01-02 19:08:46,328 - INFO - Received command: PING
+2025-01-02 19:08:46,330 - INFO - Sending PONG response.
+2025-01-02 19:08:52,331 - INFO - Received command: INIT_SOCKET_A
+2025-01-02 19:09:14,352 - INFO - Closing serial connection...
+2025-01-02 19:09:14,355 - INFO - Exiting the server script.
+2025-01-02 19:09:31,088 - INFO - Server script started.
+2025-01-02 19:09:31,089 - INFO - Starting command listener.
+2025-01-02 19:09:31,094 - INFO - Connected to /dev/tty.usbserial-110
+2025-01-02 19:09:40,848 - INFO - Received command: PING
+2025-01-02 19:09:40,849 - INFO - Sending PONG response.
+2025-01-02 19:09:46,852 - INFO - Received command: INIT_SOCKET_A
+2025-01-02 19:11:01,859 - ERROR - Error restarting job on 192.168.1.44: [Errno 60] Operation timed out
+2025-01-02 19:11:01,861 - INFO - INIT_SOCKET_A result: ERROR_A
+2025-01-02 19:16:28,531 - ERROR - Device error: [Errno 6] Device not configured. Attempting to reconnect...
+2025-01-02 19:16:28,533 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 19:16:31,538 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 19:16:33,687 - INFO - Exiting the server script.
+2025-01-02 20:38:59,987 - INFO - Server script started.
+2025-01-02 20:38:59,989 - INFO - Starting command listener.
+2025-01-02 20:38:59,989 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 20:39:02,995 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 20:39:06,001 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 20:39:09,019 - INFO - Connected to /dev/tty.usbserial-110
+2025-01-02 20:39:25,905 - INFO - Received command: PING
+2025-01-02 20:39:25,905 - INFO - Sending PONG response.
+2025-01-02 20:39:31,918 - INFO - Received command: INIT_SOCKET_A
+2025-01-02 20:39:31,968 - INFO - Restarting the Hexa job locally.
+2025-01-02 20:39:31,970 - INFO - INIT_SOCKET_A result: OK_A
+2025-01-02 20:39:37,921 - INFO - Received command: INIT_SOCKET_B
+2025-01-02 20:39:37,968 - INFO - Stopping job locally with PID 50920.
+2025-01-02 20:39:38,973 - INFO - Restarting the Hexa job locally.
+2025-01-02 20:39:38,985 - INFO - INIT_SOCKET_B result: OK_B
+2025-01-02 20:39:43,919 - INFO - Received command: CHECK_GPIB
+2025-01-02 20:39:43,966 - WARNING - GPIB server is not running.
+2025-01-02 20:39:43,966 - INFO - CHECK_GPIB result: GPIB_ERROR
+2025-01-02 20:40:27,984 - INFO - Received command: PING
+2025-01-02 20:40:27,986 - INFO - Sending PONG response.
+2025-01-02 20:40:33,988 - INFO - Received command: INIT_SOCKET_A
+2025-01-02 20:40:34,039 - INFO - Stopping job locally with PID 50933.
+2025-01-02 20:40:35,044 - INFO - Restarting the Hexa job locally.
+2025-01-02 20:40:35,059 - INFO - INIT_SOCKET_A result: OK_A
+2025-01-02 20:40:39,990 - INFO - Received command: INIT_SOCKET_B
+2025-01-02 20:40:40,039 - INFO - Stopping job locally with PID 51016.
+2025-01-02 20:40:41,045 - INFO - Restarting the Hexa job locally.
+2025-01-02 20:40:41,055 - INFO - INIT_SOCKET_B result: OK_B
+2025-01-02 20:40:45,988 - INFO - Received command: CHECK_GPIB
+2025-01-02 20:40:46,038 - INFO - GPIB server is running.
+2025-01-02 20:40:46,038 - INFO - CHECK_GPIB result: GPIB_OK
+2025-01-02 20:40:56,112 - INFO - Received command: START,A: ECOND - 1 2 3 4 - 1,B: ECOND - 5 6 7 8 - 1
+2025-01-02 20:40:56,112 - INFO - Processing START command with config_a: A: ECOND - 1 2 3 4 - 1, config_b: B: ECOND - 5 6 7 8 - 1
+2025-01-02 20:40:56,135 - INFO - Started script with command: nohup ./run_robot_chip_2hexa.py --trays_a 1,2,3,4 --trays_b 5,6,7,8 --chip_number_start_a 1 --chip_number_start_b 1 &
+2025-01-02 20:41:07,352 - INFO - Received command: PING
+2025-01-02 20:41:07,352 - INFO - Sending PONG response.
+2025-01-02 20:41:13,358 - INFO - Received command: INIT_SOCKET_A
+2025-01-02 20:41:13,409 - INFO - Stopping job locally with PID 51029.
+2025-01-02 20:41:14,415 - INFO - Restarting the Hexa job locally.
+2025-01-02 20:41:14,425 - INFO - INIT_SOCKET_A result: OK_A
+2025-01-02 20:41:19,360 - INFO - Received command: INIT_SOCKET_B
+2025-01-02 20:41:19,409 - INFO - Stopping job locally with PID 51076.
+2025-01-02 20:41:20,415 - INFO - Restarting the Hexa job locally.
+2025-01-02 20:41:20,426 - INFO - INIT_SOCKET_B result: OK_B
+2025-01-02 20:41:25,359 - INFO - Received command: CHECK_GPIB
+2025-01-02 20:41:25,410 - INFO - GPIB server is running.
+2025-01-02 20:41:25,410 - INFO - CHECK_GPIB result: GPIB_OK
+2025-01-02 20:41:37,112 - INFO - Received command: START,A: ECOND - 1 2 3 4 - 1,B: ECOND - 5 6 7 8 - 1
+2025-01-02 20:41:37,112 - INFO - Processing START command with config_a: A: ECOND - 1 2 3 4 - 1, config_b: B: ECOND - 5 6 7 8 - 1
+2025-01-02 20:41:37,127 - INFO - Script is already running.
+2025-01-02 20:41:54,582 - INFO - Received command: KILL
+2025-01-02 20:41:54,582 - INFO - Processing KILL command.
+2025-01-02 20:41:54,595 - INFO - Killed process with PID 51051.
+2025-01-02 20:42:03,392 - INFO - Received command: START,A: ECOND - 1 2 3 4 - 1,B: ECOND - 5 6 7 8 - 1
+2025-01-02 20:42:03,393 - INFO - Processing START command with config_a: A: ECOND - 1 2 3 4 - 1, config_b: B: ECOND - 5 6 7 8 - 1
+2025-01-02 20:42:03,409 - INFO - Started script with command: nohup ./run_robot_chip_2hexa.py --trays_a 1,2,3,4 --trays_b 5,6,7,8 --chip_number_start_a 1 --chip_number_start_b 1 &
+2025-01-02 20:42:27,241 - INFO - Closing serial connection...
+2025-01-02 20:42:27,243 - INFO - Exiting the server script.
+2025-01-02 21:26:30,065 - INFO - Server script started.
+2025-01-02 21:26:30,066 - INFO - Starting command listener.
+2025-01-02 21:26:30,074 - INFO - Connected to /dev/tty.usbserial-110
+2025-01-02 21:26:36,722 - INFO - Received command: PING
+2025-01-02 21:26:36,722 - INFO - Sending PONG response.
+2025-01-02 21:28:41,736 - INFO - Received command: INIT_SOCKET_A
+2025-01-02 21:28:41,806 - INFO - Stopping job locally with PID 51087.
+2025-01-02 21:28:42,812 - INFO - Restarting the Hexa job locally.
+2025-01-02 21:28:42,823 - INFO - INIT_SOCKET_A result: OK_A
+2025-01-02 21:30:51,735 - INFO - Received command: INIT_SOCKET_B
+2025-01-02 21:30:51,798 - INFO - Stopping job locally with PID 55385.
+2025-01-02 21:30:52,803 - INFO - Restarting the Hexa job locally.
+2025-01-02 21:30:52,819 - INFO - INIT_SOCKET_B result: OK_B
+2025-01-02 21:33:01,725 - INFO - Received command: CHECK_GPIB
+2025-01-02 21:33:01,802 - INFO - GPIB server is running.
+2025-01-02 21:33:01,802 - INFO - CHECK_GPIB result: GPIB_OK
+2025-01-02 21:35:15,896 - INFO - Closing serial connection...
+2025-01-02 21:35:15,898 - INFO - Exiting the server script.
+2025-01-02 21:39:07,704 - INFO - Server script started.
+2025-01-02 21:39:07,706 - INFO - Starting command listener.
+2025-01-02 21:39:07,711 - INFO - Connected to /dev/tty.usbserial-110
+2025-01-02 21:39:18,823 - ERROR - Received non-UTF-8 message: b'L9P\x06\xceB\xe0\xd1\xce\xa5(\xf1\t\xd5\\\xbc\xe4*\xe4@\xd1\x80\xa9'
+2025-01-02 21:39:21,277 - ERROR - Received non-UTF-8 message: b'\xb0!\xf12\xff\xea1S8)md\xc1\x8a\x8c\xaf\xe0F)\xc86\x8b\xa50M\x08hl\xca\xfd'
+2025-01-02 21:39:21,824 - ERROR - Received non-UTF-8 message: b'H\x11\x13\xf0\xe5\xf0\x84\x94\x08\xd5q\n'
+2025-01-02 21:39:22,833 - ERROR - Received non-UTF-8 message: b'\x11H6\xab \xd5$!\xe2\xd5'
+2025-01-02 21:39:24,283 - ERROR - Received non-UTF-8 message: b'\x90\xffH\xc8\xc4\xb6!\xf7$\xdd\x8e\x0c\xa7E\x0c4\xa9^H\x0c0f\x8aD!\x18\xa3,\n'
+2025-01-02 21:39:25,286 - ERROR - Received non-UTF-8 message: b'\xfe'
+2025-01-02 21:39:45,416 - INFO - Closing serial connection...
+2025-01-02 21:39:45,418 - INFO - Exiting the server script.
+2025-01-02 21:49:51,657 - INFO - Server script started.
+2025-01-02 21:49:51,658 - INFO - Starting command listener.
+2025-01-02 21:49:51,663 - INFO - Connected to /dev/tty.usbserial-110
+2025-01-02 21:50:00,334 - INFO - Received command: PING
+2025-01-02 21:50:00,334 - INFO - Sending PONG response.
+2025-01-02 21:52:05,339 - INFO - Received command: INIT_SOCKET_A
+2025-01-02 21:52:05,403 - INFO - Stopping job locally with PID 55570.
+2025-01-02 21:52:06,404 - INFO - Restarting the Hexa job locally.
+2025-01-02 21:52:06,411 - INFO - INIT_SOCKET_A result: OK_A
+2025-01-02 21:54:06,451 - INFO - Received command: INIT_SOCKET_B
+2025-01-02 21:54:06,534 - INFO - Stopping job locally with PID 57551.
+2025-01-02 21:54:07,539 - INFO - Restarting the Hexa job locally.
+2025-01-02 21:54:07,551 - INFO - INIT_SOCKET_B result: OK_B
+2025-01-02 21:56:07,599 - INFO - Received command: CHECK_GPIB
+2025-01-02 21:56:07,664 - INFO - GPIB server is running.
+2025-01-02 21:56:07,664 - INFO - CHECK_GPIB result: GPIB_OK
+2025-01-02 21:58:20,222 - INFO - Received command: START,A: ECOND - 1 2 3 4 - 1,B: ECOND - 5 6 7 8 - 1
+2025-01-02 21:58:20,223 - INFO - Processing START command with config_a: A: ECOND - 1 2 3 4 - 1, config_b: B: ECOND - 5 6 7 8 - 1
+2025-01-02 21:58:20,247 - INFO - Script is already running.
+2025-01-02 21:58:42,746 - INFO - Closing serial connection...
+2025-01-02 21:58:42,750 - INFO - Exiting the server script.
+2025-01-02 22:01:06,909 - INFO - Server script started.
+2025-01-02 22:01:06,910 - INFO - Starting command listener.
+2025-01-02 22:01:06,914 - INFO - Connected to /dev/tty.usbserial-110
+2025-01-02 22:01:10,544 - ERROR - Received non-UTF-8 message: b'|9\xa7<\x0eB\xce\xe1\xce\xa7i\xd1\t\xd5l<*\x8d\x94\xa0!\xa4\xf3'
+2025-01-02 22:01:12,557 - ERROR - Received non-UTF-8 message: b'j\xff\x88\xf6\xb4\xcc'
+2025-01-02 22:01:19,938 - ERROR - Received non-UTF-8 message: b'\xfc'
+2025-01-02 22:03:18,252 - INFO - Closing serial connection...
+2025-01-02 22:03:18,254 - INFO - Exiting the server script.
+2025-01-02 22:05:27,328 - INFO - Server script started.
+2025-01-02 22:05:27,329 - INFO - Starting command listener.
+2025-01-02 22:05:27,334 - INFO - Connected to /dev/tty.usbserial-110
+2025-01-02 22:05:32,081 - INFO - Received command: PING
+2025-01-02 22:05:32,082 - INFO - Sending PONG response.
+2025-01-02 22:05:32,194 - INFO - Received command: INIT_SOCKET_A
+2025-01-02 22:05:32,268 - INFO - Stopping job locally with PID 57706.
+2025-01-02 22:05:33,273 - INFO - Restarting the Hexa job locally.
+2025-01-02 22:05:33,284 - INFO - INIT_SOCKET_A result: OK_A
+2025-01-02 22:05:33,401 - INFO - Received command: INIT_SOCKET_B
+2025-01-02 22:05:33,460 - INFO - Stopping job locally with PID 58577.
+2025-01-02 22:05:34,465 - INFO - Restarting the Hexa job locally.
+2025-01-02 22:05:34,476 - INFO - INIT_SOCKET_B result: OK_B
+2025-01-02 22:05:34,606 - INFO - Received command: CHECK_GPIB
+2025-01-02 22:05:34,662 - INFO - GPIB server is running.
+2025-01-02 22:05:34,662 - INFO - CHECK_GPIB result: GPIB_OK
+2025-01-02 22:05:41,996 - INFO - Received command: START,A: ECOND - 1 - 1,B: ECOND - 5 - 1
+2025-01-02 22:05:41,997 - INFO - Processing START command with config_a: A: ECOND - 1 - 1, config_b: B: ECOND - 5 - 1
+2025-01-02 22:05:42,014 - INFO - Script is already running.
+2025-01-02 22:05:45,317 - INFO - Received command: KILL
+2025-01-02 22:05:45,317 - INFO - Processing KILL command.
+2025-01-02 22:05:45,330 - INFO - Killed process with PID 51142.
+2025-01-02 22:05:47,835 - INFO - Received command: START,A: ECOND - 1 - 1,B: ECOND - 5 - 1
+2025-01-02 22:05:47,835 - INFO - Processing START command with config_a: A: ECOND - 1 - 1, config_b: B: ECOND - 5 - 1
+2025-01-02 22:05:47,850 - INFO - Started script with command: nohup ./run_robot_chip_2hexa.py --trays_a 1 --trays_b 5 --chip_number_start_a 1 --chip_number_start_b 1 &
+2025-01-02 22:06:01,001 - INFO - Received command: PING
+2025-01-02 22:06:01,002 - INFO - Sending PONG response.
+2025-01-02 22:06:01,114 - INFO - Received command: INIT_SOCKET_A
+2025-01-02 22:06:01,174 - INFO - Stopping job locally with PID 58584.
+2025-01-02 22:06:02,179 - INFO - Restarting the Hexa job locally.
+2025-01-02 22:06:02,190 - INFO - INIT_SOCKET_A result: OK_A
+2025-01-02 22:06:02,321 - INFO - Received command: INIT_SOCKET_B
+2025-01-02 22:06:02,378 - INFO - Stopping job locally with PID 58629.
+2025-01-02 22:06:03,383 - INFO - Restarting the Hexa job locally.
+2025-01-02 22:06:03,393 - INFO - INIT_SOCKET_B result: OK_B
+2025-01-02 22:06:03,527 - INFO - Received command: CHECK_GPIB
+2025-01-02 22:06:03,582 - INFO - GPIB server is running.
+2025-01-02 22:06:03,582 - INFO - CHECK_GPIB result: GPIB_OK
+2025-01-02 22:06:05,595 - INFO - Received command: START,A: ECOND - 1 - 1,B: ECOND - 5 - 1
+2025-01-02 22:06:05,595 - INFO - Processing START command with config_a: A: ECOND - 1 - 1, config_b: B: ECOND - 5 - 1
+2025-01-02 22:06:05,639 - INFO - Script is already running.
+2025-01-02 22:06:07,397 - INFO - Received command: KILL
+2025-01-02 22:06:07,398 - INFO - Processing KILL command.
+2025-01-02 22:06:07,413 - INFO - Killed process with PID 58608.
+2025-01-02 22:06:10,636 - INFO - Received command: START,A: ECOND - 1 - 1,B: ECOND - 5 - 1
+2025-01-02 22:06:10,636 - INFO - Processing START command with config_a: A: ECOND - 1 - 1, config_b: B: ECOND - 5 - 1
+2025-01-02 22:06:10,651 - INFO - Started script with command: nohup ./run_robot_chip_2hexa.py --trays_a 1 --trays_b 5 --chip_number_start_a 1 --chip_number_start_b 1 &
+2025-01-02 22:06:45,956 - INFO - Closing serial connection...
+2025-01-02 22:06:45,963 - INFO - Exiting the server script.
+2025-01-02 22:09:03,016 - INFO - Server script started.
+2025-01-02 22:09:03,018 - INFO - Starting command listener.
+2025-01-02 22:09:03,024 - INFO - Connected to /dev/tty.usbserial-110
+2025-01-02 22:09:07,987 - INFO - Received command: PING
+2025-01-02 22:09:07,987 - INFO - Sending PONG response.
+2025-01-02 22:09:08,100 - INFO - Received command: INIT_SOCKET_A
+2025-01-02 22:09:08,175 - INFO - Stopping job locally with PID 58636.
+2025-01-02 22:09:09,180 - INFO - Restarting the Hexa job locally.
+2025-01-02 22:09:09,193 - INFO - INIT_SOCKET_A result: OK_A
+2025-01-02 22:09:09,307 - INFO - Received command: INIT_SOCKET_B
+2025-01-02 22:09:09,364 - INFO - Stopping job locally with PID 58891.
+2025-01-02 22:09:10,370 - INFO - Restarting the Hexa job locally.
+2025-01-02 22:09:10,378 - INFO - INIT_SOCKET_B result: OK_B
+2025-01-02 22:09:10,512 - INFO - Received command: CHECK_GPIB
+2025-01-02 22:09:10,568 - INFO - GPIB server is running.
+2025-01-02 22:09:10,568 - INFO - CHECK_GPIB result: GPIB_OK
+2025-01-02 22:09:12,955 - INFO - Received command: START,A: ECOND - 1 2 3 4 - 1,B: ECOND - 5 6 7 8 - 1
+2025-01-02 22:09:12,955 - INFO - Processing START command with config_a: A: ECOND - 1 2 3 4 - 1, config_b: B: ECOND - 5 6 7 8 - 1
+2025-01-02 22:09:12,973 - INFO - Script is already running.
+2025-01-02 22:09:13,944 - INFO - Received command: KILL
+2025-01-02 22:09:13,944 - INFO - Processing KILL command.
+2025-01-02 22:09:13,957 - INFO - Killed process with PID 58654.
+2025-01-02 22:09:15,795 - INFO - Received command: START,A: ECOND - 1 2 3 4 - 1,B: ECOND - 5 6 7 8 - 1
+2025-01-02 22:09:15,795 - INFO - Processing START command with config_a: A: ECOND - 1 2 3 4 - 1, config_b: B: ECOND - 5 6 7 8 - 1
+2025-01-02 22:09:15,813 - INFO - Started script with command: nohup ./run_robot_chip_2hexa.py --trays_a 1,2,3,4 --trays_b 5,6,7,8 --chip_number_start_a 1 --chip_number_start_b 1 &
+2025-01-02 22:09:26,114 - ERROR - Device error: [Errno 6] Device not configured. Attempting to reconnect...
+2025-01-02 22:09:26,115 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:09:28,485 - INFO - Exiting the server script.
+2025-01-02 22:29:14,996 - INFO - Server script started.
+2025-01-02 22:29:14,998 - INFO - Starting command listener.
+2025-01-02 22:29:15,008 - INFO - Connected to /dev/tty.usbserial-110
+2025-01-02 22:29:22,690 - INFO - Received command: PING
+2025-01-02 22:29:22,692 - INFO - Sending PONG response.
+2025-01-02 22:29:22,803 - INFO - Received command: INIT_SOCKET_A
+2025-01-02 22:29:22,883 - INFO - Stopping job locally with PID 58898.
+2025-01-02 22:29:23,888 - INFO - Restarting the Hexa job locally.
+2025-01-02 22:29:23,899 - INFO - INIT_SOCKET_A result: OK_A
+2025-01-02 22:29:24,010 - INFO - Received command: INIT_SOCKET_B
+2025-01-02 22:29:24,068 - INFO - Stopping job locally with PID 60439.
+2025-01-02 22:29:25,073 - INFO - Restarting the Hexa job locally.
+2025-01-02 22:29:25,083 - INFO - INIT_SOCKET_B result: OK_B
+2025-01-02 22:29:25,215 - INFO - Received command: CHECK_GPIB
+2025-01-02 22:29:25,273 - INFO - GPIB server is running.
+2025-01-02 22:29:25,273 - INFO - CHECK_GPIB result: GPIB_OK
+2025-01-02 22:29:50,659 - INFO - Received command: START,A: ECOND - 1 2 3 4 - 1,B: ECOND - 5 6 7 8 - 1
+2025-01-02 22:29:50,660 - INFO - Processing START command with config_a: A: ECOND - 1 2 3 4 - 1, config_b: B: ECOND - 5 6 7 8 - 1
+2025-01-02 22:29:50,682 - INFO - Script is already running.
+2025-01-02 22:29:51,768 - INFO - Received command: KILL
+2025-01-02 22:29:51,768 - INFO - Processing KILL command.
+2025-01-02 22:29:51,783 - INFO - Killed process with PID 58913.
+2025-01-02 22:29:55,259 - INFO - Received command: START,A: ECOND - 1 2 3 4 - 1,B: ECOND - 5 6 7 8 - 1
+2025-01-02 22:29:55,259 - INFO - Processing START command with config_a: A: ECOND - 1 2 3 4 - 1, config_b: B: ECOND - 5 6 7 8 - 1
+2025-01-02 22:29:55,279 - INFO - Started script with command: nohup ./run_robot_chip_2hexa.py --trays_a 1,2,3,4 --trays_b 5,6,7,8 --chip_number_start_a 1 --chip_number_start_b 1 &
+2025-01-02 22:30:01,371 - INFO - Received command: PING
+2025-01-02 22:30:01,372 - INFO - Sending PONG response.
+2025-01-02 22:30:01,484 - INFO - Received command: INIT_SOCKET_A
+2025-01-02 22:30:01,599 - INFO - Stopping job locally with PID 60446.
+2025-01-02 22:30:02,605 - INFO - Restarting the Hexa job locally.
+2025-01-02 22:30:02,612 - INFO - INIT_SOCKET_A result: OK_A
+2025-01-02 22:30:02,691 - INFO - Received command: INIT_SOCKET_B
+2025-01-02 22:30:02,749 - INFO - Stopping job locally with PID 60501.
+2025-01-02 22:30:03,755 - INFO - Restarting the Hexa job locally.
+2025-01-02 22:30:03,763 - INFO - INIT_SOCKET_B result: OK_B
+2025-01-02 22:30:03,897 - INFO - Received command: CHECK_GPIB
+2025-01-02 22:30:03,952 - INFO - GPIB server is running.
+2025-01-02 22:30:03,953 - INFO - CHECK_GPIB result: GPIB_OK
+2025-01-02 22:30:12,539 - INFO - Received command: START,A: ECOND - 1 2 3 4 - 1,B: ECOND - 5 6 7 8 - 1
+2025-01-02 22:30:12,539 - INFO - Processing START command with config_a: A: ECOND - 1 2 3 4 - 1, config_b: B: ECOND - 5 6 7 8 - 1
+2025-01-02 22:30:12,554 - INFO - Script is already running.
+2025-01-02 22:30:14,648 - INFO - Received command: KILL
+2025-01-02 22:30:14,648 - INFO - Processing KILL command.
+2025-01-02 22:30:14,662 - INFO - Killed process with PID 60487.
+2025-01-02 22:31:36,857 - INFO - Closing serial connection...
+2025-01-02 22:31:36,863 - INFO - Exiting the server script.
+2025-01-02 22:33:46,351 - INFO - Server script started.
+2025-01-02 22:33:46,352 - INFO - Starting command listener.
+2025-01-02 22:33:46,357 - INFO - Connected to /dev/tty.usbserial-110
+2025-01-02 22:33:49,697 - INFO - Received command: PING
+2025-01-02 22:33:49,697 - INFO - Sending PONG response.
+2025-01-02 22:33:49,802 - INFO - Received command: INIT_SOCKET_A
+2025-01-02 22:33:49,863 - INFO - Stopping job locally with PID 60508.
+2025-01-02 22:33:50,868 - INFO - Restarting the Hexa job locally.
+2025-01-02 22:33:50,879 - INFO - INIT_SOCKET_A result: OK_A
+2025-01-02 22:33:50,909 - INFO - Received command: INIT_SOCKET_B
+2025-01-02 22:33:51,019 - INFO - Stopping job locally with PID 60833.
+2025-01-02 22:33:52,024 - INFO - Restarting the Hexa job locally.
+2025-01-02 22:33:52,035 - INFO - INIT_SOCKET_B result: OK_B
+2025-01-02 22:33:52,117 - INFO - Received command: CHECK_GPIB
+2025-01-02 22:33:52,184 - INFO - GPIB server is running.
+2025-01-02 22:33:52,184 - INFO - CHECK_GPIB result: GPIB_OK
+2025-01-02 22:33:55,335 - INFO - Received command: START,A: ECOND - 1 2 3 4 - 1,B: ECOND - 5 6 7 8 - 1
+2025-01-02 22:33:55,335 - INFO - Processing START command with config_a: A: ECOND - 1 2 3 4 - 1, config_b: B: ECOND - 5 6 7 8 - 1
+2025-01-02 22:33:55,353 - INFO - Started script with command: nohup ./run_robot_chip_2hexa.py --trays_a 1,2,3,4 --trays_b 5,6,7,8 --chip_number_start_a 1 --chip_number_start_b 1 &
+2025-01-02 22:34:15,738 - INFO - Received command: PING
+2025-01-02 22:34:15,740 - INFO - Sending PONG response.
+2025-01-02 22:34:15,842 - INFO - Received command: INIT_SOCKET_A
+2025-01-02 22:34:15,910 - INFO - Stopping job locally with PID 60841.
+2025-01-02 22:34:16,916 - INFO - Restarting the Hexa job locally.
+2025-01-02 22:34:16,925 - INFO - INIT_SOCKET_A result: OK_A
+2025-01-02 22:34:16,949 - INFO - Received command: INIT_SOCKET_B
+2025-01-02 22:34:17,017 - INFO - Stopping job locally with PID 60891.
+2025-01-02 22:34:18,022 - INFO - Restarting the Hexa job locally.
+2025-01-02 22:34:18,031 - INFO - INIT_SOCKET_B result: OK_B
+2025-01-02 22:34:18,057 - INFO - Received command: CHECK_GPIB
+2025-01-02 22:34:18,142 - INFO - GPIB server is running.
+2025-01-02 22:34:18,142 - INFO - CHECK_GPIB result: GPIB_OK
+2025-01-02 22:34:19,661 - INFO - Received command: START,A: ECOND - 1 2 3 4 - 1,B: ECOND - 5 6 7 8 - 1
+2025-01-02 22:34:19,661 - INFO - Processing START command with config_a: A: ECOND - 1 2 3 4 - 1, config_b: B: ECOND - 5 6 7 8 - 1
+2025-01-02 22:34:19,674 - INFO - Script is already running.
+2025-01-02 22:34:20,855 - INFO - Received command: KILL
+2025-01-02 22:34:20,855 - INFO - Processing KILL command.
+2025-01-02 22:34:20,870 - INFO - Killed process with PID 60851.
+2025-01-02 22:34:23,140 - INFO - Received command: START,A: ECOND - 1 2 3 4 - 1,B: ECOND - 5 6 7 8 - 1
+2025-01-02 22:34:23,141 - INFO - Processing START command with config_a: A: ECOND - 1 2 3 4 - 1, config_b: B: ECOND - 5 6 7 8 - 1
+2025-01-02 22:34:23,157 - INFO - Started script with command: nohup ./run_robot_chip_2hexa.py --trays_a 1,2,3,4 --trays_b 5,6,7,8 --chip_number_start_a 1 --chip_number_start_b 1 &
+2025-01-02 22:34:29,334 - ERROR - Device error: [Errno 6] Device not configured. Attempting to reconnect...
+2025-01-02 22:34:29,335 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:34:32,341 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:34:35,345 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:34:38,348 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:34:41,354 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:34:44,359 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:34:47,362 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:34:50,369 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:34:53,375 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:34:56,381 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:34:59,387 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:35:02,390 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:35:05,397 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:35:08,403 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:35:11,406 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:35:14,412 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:35:17,414 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:35:20,419 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:35:23,427 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:35:26,435 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:35:29,451 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:35:32,457 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:35:35,459 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:35:38,467 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:35:41,469 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:35:44,477 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:35:47,480 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:35:50,482 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:35:53,490 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:35:56,496 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:35:59,503 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:36:02,508 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:36:05,520 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:36:08,527 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:36:11,535 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:36:14,541 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:36:17,548 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:36:20,554 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:36:23,556 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:36:26,559 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:36:29,565 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:36:32,569 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:36:35,575 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:36:38,578 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:36:41,579 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:36:44,583 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:36:47,588 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:36:50,589 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:36:53,591 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:36:56,597 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:36:59,608 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:37:02,615 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:37:05,622 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:37:08,628 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:37:11,635 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:37:14,640 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:37:17,643 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:37:20,647 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:37:23,652 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:37:26,658 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:37:29,664 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:37:32,670 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:37:35,676 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:37:38,682 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:37:41,687 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:37:44,695 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:37:47,701 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:37:50,702 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:37:53,710 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:37:56,716 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:37:59,717 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:38:02,723 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:38:05,731 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:38:08,734 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:38:11,738 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:38:14,743 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:38:17,749 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:38:20,750 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:38:23,756 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:38:26,760 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:38:29,767 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:38:32,773 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:38:35,776 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:38:38,778 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:38:41,783 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:38:44,787 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:38:47,789 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:38:50,795 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:38:53,800 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:38:56,806 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:38:59,809 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:39:02,813 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:39:05,819 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:39:08,825 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:39:11,832 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:39:14,838 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:39:17,843 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:39:20,847 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:39:23,851 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:39:26,857 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:39:29,864 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:39:32,868 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:39:35,870 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:39:38,875 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:39:41,881 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:39:44,887 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:39:47,889 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:39:50,893 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:39:53,900 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:39:56,906 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:39:59,910 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:40:02,915 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:40:05,918 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:40:08,921 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:40:11,924 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:40:14,928 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:40:17,935 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:40:20,937 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:40:23,942 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:40:26,943 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:40:29,949 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:40:32,953 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:40:35,960 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:40:38,964 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:40:41,970 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:40:44,976 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:40:47,976 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:40:50,977 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:40:53,983 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:40:56,988 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:40:59,992 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:41:02,999 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:41:06,006 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:41:09,012 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:41:12,017 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:41:15,024 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:41:18,030 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:41:21,036 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:41:24,041 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:41:27,047 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:41:30,055 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:41:33,059 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:41:36,067 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:41:39,069 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:41:42,074 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:41:45,077 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:41:48,079 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:41:51,080 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:41:54,086 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:41:57,093 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:42:00,097 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:42:03,102 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:42:06,112 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:42:09,115 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:42:12,121 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:42:15,140 - INFO - Connected to /dev/tty.usbserial-110
+2025-01-02 22:42:18,544 - INFO - Closing serial connection...
+2025-01-02 22:42:18,546 - INFO - Exiting the server script.
+2025-01-02 22:44:38,081 - INFO - Server script started.
+2025-01-02 22:44:38,082 - INFO - Starting command listener.
+2025-01-02 22:44:38,088 - INFO - Connected to /dev/tty.usbserial-110
+2025-01-02 22:44:40,530 - INFO - Received command: PING
+2025-01-02 22:44:40,530 - INFO - Sending PONG response.
+2025-01-02 22:44:40,634 - INFO - Received command: INIT_SOCKET_A
+2025-01-02 22:44:40,692 - INFO - Stopping job locally with PID 60899.
+2025-01-02 22:44:41,698 - INFO - Restarting the Hexa job locally.
+2025-01-02 22:44:41,708 - INFO - INIT_SOCKET_A result: OK_A
+2025-01-02 22:44:41,741 - INFO - Received command: INIT_SOCKET_B
+2025-01-02 22:44:41,808 - INFO - Stopping job locally with PID 61807.
+2025-01-02 22:44:42,814 - INFO - Restarting the Hexa job locally.
+2025-01-02 22:44:42,825 - INFO - INIT_SOCKET_B result: OK_B
+2025-01-02 22:44:42,849 - INFO - Received command: CHECK_GPIB
+2025-01-02 22:44:42,920 - INFO - GPIB server is running.
+2025-01-02 22:44:42,921 - INFO - CHECK_GPIB result: GPIB_OK
+2025-01-02 22:44:44,534 - INFO - Received command: START,A: ECOND - 1 2 3 4 - 1,B: ECOND - 5 6 7 8 - 1
+2025-01-02 22:44:44,534 - INFO - Processing START command with config_a: A: ECOND - 1 2 3 4 - 1, config_b: B: ECOND - 5 6 7 8 - 1
+2025-01-02 22:44:44,551 - INFO - Script is already running.
+2025-01-02 22:44:46,288 - INFO - Received command: KILL
+2025-01-02 22:44:46,288 - INFO - Processing KILL command.
+2025-01-02 22:44:46,301 - INFO - Killed process with PID 60916.
+2025-01-02 22:44:47,893 - INFO - Received command: START,A: ECOND - 1 2 3 4 - 1,B: ECOND - 5 6 7 8 - 1
+2025-01-02 22:44:47,893 - INFO - Processing START command with config_a: A: ECOND - 1 2 3 4 - 1, config_b: B: ECOND - 5 6 7 8 - 1
+2025-01-02 22:44:47,907 - INFO - Started script with command: nohup ./run_robot_chip_2hexa.py --trays_a 1,2,3,4 --trays_b 5,6,7,8 --chip_number_start_a 1 --chip_number_start_b 1 &
+2025-01-02 22:45:11,570 - INFO - Received command: PING
+2025-01-02 22:45:11,571 - INFO - Sending PONG response.
+2025-01-02 22:45:11,675 - INFO - Received command: INIT_SOCKET_A
+2025-01-02 22:45:11,731 - INFO - Stopping job locally with PID 61815.
+2025-01-02 22:45:12,736 - INFO - Restarting the Hexa job locally.
+2025-01-02 22:45:12,750 - INFO - INIT_SOCKET_A result: OK_A
+2025-01-02 22:45:12,782 - INFO - Received command: INIT_SOCKET_B
+2025-01-02 22:45:12,852 - INFO - Stopping job locally with PID 61862.
+2025-01-02 22:45:13,857 - INFO - Restarting the Hexa job locally.
+2025-01-02 22:45:13,871 - INFO - INIT_SOCKET_B result: OK_B
+2025-01-02 22:45:13,890 - INFO - Received command: CHECK_GPIB
+2025-01-02 22:45:13,968 - INFO - GPIB server is running.
+2025-01-02 22:45:13,968 - INFO - CHECK_GPIB result: GPIB_OK
+2025-01-02 22:45:19,014 - INFO - Received command: START,A: ECOND - 1 2 3 4 - 1,B: ECOND - 5 6 7 8 - 1
+2025-01-02 22:45:19,014 - INFO - Processing START command with config_a: A: ECOND - 1 2 3 4 - 1, config_b: B: ECOND - 5 6 7 8 - 1
+2025-01-02 22:45:19,027 - INFO - Script is already running.
+2025-01-02 22:45:20,009 - INFO - Received command: KILL
+2025-01-02 22:45:20,009 - INFO - Processing KILL command.
+2025-01-02 22:45:20,021 - INFO - Killed process with PID 61830.
+2025-01-02 22:45:21,133 - INFO - Received command: START,A: ECOND - 1 2 3 4 - 1,B: ECOND - 5 6 7 8 - 1
+2025-01-02 22:45:21,133 - INFO - Processing START command with config_a: A: ECOND - 1 2 3 4 - 1, config_b: B: ECOND - 5 6 7 8 - 1
+2025-01-02 22:45:21,147 - INFO - Started script with command: nohup ./run_robot_chip_2hexa.py --trays_a 1,2,3,4 --trays_b 5,6,7,8 --chip_number_start_a 1 --chip_number_start_b 1 &
+2025-01-02 22:45:30,071 - ERROR - Device error: [Errno 6] Device not configured. Attempting to reconnect...
+2025-01-02 22:45:30,071 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:45:33,077 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:45:36,082 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:45:39,084 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:45:42,089 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:45:45,094 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 22:45:47,216 - INFO - Exiting the server script.
+2025-01-02 23:00:51,515 - INFO - Server script started.
+2025-01-02 23:00:51,516 - INFO - Starting command listener.
+2025-01-02 23:00:51,516 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 23:00:54,522 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 23:00:57,524 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 23:01:00,528 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 23:01:03,535 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 23:01:06,540 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 23:01:09,546 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 23:01:12,552 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 23:01:15,558 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 23:01:17,519 - INFO - Exiting the server script.
+2025-01-02 23:01:18,343 - INFO - Server script started.
+2025-01-02 23:01:18,344 - INFO - Starting command listener.
+2025-01-02 23:01:18,344 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 23:01:21,350 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 23:01:23,001 - INFO - Exiting the server script.
+2025-01-02 23:01:39,926 - INFO - Server script started.
+2025-01-02 23:01:39,927 - INFO - Starting command listener.
+2025-01-02 23:01:39,936 - INFO - Connected to /dev/tty.usbserial-110
+2025-01-02 23:02:14,480 - INFO - Received command: PING
+2025-01-02 23:02:14,481 - INFO - Sending PONG response.
+2025-01-02 23:02:14,585 - INFO - Received command: INIT_SOCKET_A
+2025-01-02 23:02:14,647 - INFO - Stopping job locally with PID 61869.
+2025-01-02 23:02:15,653 - INFO - Restarting the Hexa job locally.
+2025-01-02 23:02:15,664 - INFO - INIT_SOCKET_A result: OK_A
+2025-01-02 23:02:15,691 - INFO - Received command: INIT_SOCKET_B
+2025-01-02 23:02:15,784 - INFO - Stopping job locally with PID 63168.
+2025-01-02 23:02:16,789 - INFO - Restarting the Hexa job locally.
+2025-01-02 23:02:16,800 - INFO - INIT_SOCKET_B result: OK_B
+2025-01-02 23:02:16,899 - INFO - Received command: CHECK_GPIB
+2025-01-02 23:02:16,954 - INFO - GPIB server is running.
+2025-01-02 23:02:16,954 - INFO - CHECK_GPIB result: GPIB_OK
+2025-01-02 23:02:30,364 - INFO - Received command: START,A: ECOND - 1 2 - 1,B: ECOND - 5 6 7 - 13
+2025-01-02 23:02:30,365 - INFO - Processing START command with config_a: A: ECOND - 1 2 - 1, config_b: B: ECOND - 5 6 7 - 13
+2025-01-02 23:02:30,399 - INFO - Script is already running.
+2025-01-02 23:02:41,799 - INFO - Received command: KILL
+2025-01-02 23:02:41,800 - INFO - Processing KILL command.
+2025-01-02 23:02:41,814 - INFO - Killed process with PID 61886.
+2025-01-02 23:02:44,204 - INFO - Received command: START,A: ECOND - 1 2 - 1,B: ECOND - 5 6 7 - 13
+2025-01-02 23:02:44,205 - INFO - Processing START command with config_a: A: ECOND - 1 2 - 1, config_b: B: ECOND - 5 6 7 - 13
+2025-01-02 23:02:44,218 - INFO - Started script with command: nohup ./run_robot_chip_2hexa.py --trays_a 1,2 --trays_b 5,6,7 --chip_number_start_a 1 --chip_number_start_b 13 &
+2025-01-02 23:02:54,454 - ERROR - Device error: [Errno 6] Device not configured. Attempting to reconnect...
+2025-01-02 23:02:54,455 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 23:02:57,473 - INFO - Connected to /dev/tty.usbserial-110
+2025-01-02 23:02:57,758 - ERROR - Device error: [Errno 6] Device not configured. Attempting to reconnect...
+2025-01-02 23:02:57,758 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-02 23:02:59,770 - INFO - Exiting the server script.
+2025-01-03 02:23:28,782 - INFO - Server script started.
+2025-01-03 02:23:28,783 - INFO - Starting command listener.
+2025-01-03 02:23:28,787 - INFO - Connected to /dev/tty.usbserial-110
+2025-01-03 02:23:30,867 - INFO - Received command: PING
+2025-01-03 02:23:30,868 - INFO - Sending PONG response.
+2025-01-03 02:23:32,971 - INFO - Received command: INIT_SOCKET_A
+2025-01-03 02:23:33,017 - INFO - Stopping job locally with PID 63175.
+2025-01-03 02:23:34,022 - INFO - Restarting the Hexa job locally.
+2025-01-03 02:23:34,032 - INFO - INIT_SOCKET_A result: OK_A
+2025-01-03 02:23:36,074 - INFO - Received command: INIT_SOCKET_B
+2025-01-03 02:23:36,112 - INFO - Stopping job locally with PID 67329.
+2025-01-03 02:23:37,118 - INFO - Restarting the Hexa job locally.
+2025-01-03 02:23:37,129 - INFO - INIT_SOCKET_B result: OK_B
+2025-01-03 02:23:39,172 - INFO - Received command: CHECK_GPIB
+2025-01-03 02:23:39,210 - INFO - GPIB server is running.
+2025-01-03 02:23:39,210 - INFO - CHECK_GPIB result: GPIB_OK
+2025-01-03 02:23:45,996 - INFO - Received command: START,A: ECOND - 1 2 3 4 - 1,B: ECOND - 5 6 7 8 - 1
+2025-01-03 02:23:45,996 - INFO - Processing START command with config_a: A: ECOND - 1 2 3 4 - 1, config_b: B: ECOND - 5 6 7 8 - 1
+2025-01-03 02:23:46,013 - INFO - Script is already running.
+2025-01-03 02:23:49,386 - INFO - Received command: KILL
+2025-01-03 02:23:49,386 - INFO - Processing KILL command.
+2025-01-03 02:23:49,401 - INFO - Killed process with PID 63214.
+2025-01-03 02:23:54,955 - INFO - Received command: START,A: ECOND - 1 2 3 4 - 1,B: ECOND - 5 6 7 8 - 1
+2025-01-03 02:23:54,956 - INFO - Processing START command with config_a: A: ECOND - 1 2 3 4 - 1, config_b: B: ECOND - 5 6 7 8 - 1
+2025-01-03 02:23:54,973 - INFO - Started script with command: nohup ./run_robot_chip_2hexa.py --trays_a 1,2,3,4 --trays_b 5,6,7,8 --chip_number_start_a 1 --chip_number_start_b 1 &
+2025-01-03 02:30:02,466 - INFO - Closing serial connection...
+2025-01-03 02:30:02,476 - INFO - Exiting the server script.
+2025-01-03 02:56:06,417 - INFO - Server script started.
+2025-01-03 02:56:06,418 - INFO - Starting command listener.
+2025-01-03 02:56:06,424 - INFO - Connected to /dev/tty.usbserial-110
+2025-01-03 02:56:08,730 - INFO - Received command: PING
+2025-01-03 02:56:08,730 - INFO - Sending PONG response.
+2025-01-03 02:56:10,844 - INFO - Received command: INIT_SOCKET_A
+2025-01-03 02:56:10,904 - INFO - Stopping job locally with PID 67338.
+2025-01-03 02:56:11,910 - INFO - Restarting the Hexa job locally.
+2025-01-03 02:56:11,922 - INFO - INIT_SOCKET_A result: OK_A
+2025-01-03 02:56:14,048 - INFO - Received command: INIT_SOCKET_B
+2025-01-03 02:56:14,088 - INFO - Stopping job locally with PID 70210.
+2025-01-03 02:56:15,094 - INFO - Restarting the Hexa job locally.
+2025-01-03 02:56:15,106 - INFO - INIT_SOCKET_B result: OK_B
+2025-01-03 02:56:17,149 - INFO - Received command: CHECK_GPIB
+2025-01-03 02:56:17,188 - INFO - GPIB server is running.
+2025-01-03 02:56:17,188 - INFO - CHECK_GPIB result: GPIB_OK
+2025-01-03 02:56:21,944 - INFO - Received command: START,A: ECOND - 1 2 3 4 - 1,B: ECOND - 5 6 7 8 - 1
+2025-01-03 02:56:21,944 - INFO - Processing START command with config_a: A: ECOND - 1 2 3 4 - 1, config_b: B: ECOND - 5 6 7 8 - 1
+2025-01-03 02:56:21,962 - INFO - Script is already running.
+2025-01-03 02:56:25,654 - INFO - Received command: KILL
+2025-01-03 02:56:25,655 - INFO - Processing KILL command.
+2025-01-03 02:56:25,670 - INFO - Killed process with PID 67378.
+2025-01-03 02:56:31,066 - INFO - Received command: START,A: ECOND - 1 2 3 4 - 1,B: ECOND - 5 6 7 8 - 1
+2025-01-03 02:56:31,066 - INFO - Processing START command with config_a: A: ECOND - 1 2 3 4 - 1, config_b: B: ECOND - 5 6 7 8 - 1
+2025-01-03 02:56:31,083 - INFO - Started script with command: nohup ./run_robot_chip_2hexa.py --trays_a 1,2,3,4 --trays_b 5,6,7,8 --chip_number_start_a 1 --chip_number_start_b 1 &
+2025-01-03 02:57:03,747 - INFO - Closing serial connection...
+2025-01-03 02:57:03,749 - INFO - Exiting the server script.
+2025-01-03 02:59:58,435 - INFO - Server script started.
+2025-01-03 02:59:58,436 - INFO - Starting command listener.
+2025-01-03 02:59:58,442 - INFO - Connected to /dev/tty.usbserial-110
+2025-01-03 03:00:00,057 - INFO - Received command: PING
+2025-01-03 03:00:00,057 - INFO - Sending PONG response.
+2025-01-03 03:00:02,171 - INFO - Received command: INIT_SOCKET_A
+2025-01-03 03:00:02,214 - INFO - Stopping job locally with PID 70220.
+2025-01-03 03:00:03,219 - INFO - Restarting the Hexa job locally.
+2025-01-03 03:00:03,229 - INFO - INIT_SOCKET_A result: OK_A
+2025-01-03 03:00:05,273 - INFO - Received command: INIT_SOCKET_B
+2025-01-03 03:00:05,311 - INFO - Stopping job locally with PID 70569.
+2025-01-03 03:00:06,316 - INFO - Restarting the Hexa job locally.
+2025-01-03 03:00:06,328 - INFO - INIT_SOCKET_B result: OK_B
+2025-01-03 03:00:08,372 - INFO - Received command: CHECK_GPIB
+2025-01-03 03:00:08,411 - INFO - GPIB server is running.
+2025-01-03 03:00:08,411 - INFO - CHECK_GPIB result: GPIB_OK
+2025-01-03 03:00:14,425 - INFO - Received command: START,A: ECOND - 1 2 3 4 - 1,B: ECOND - 5 6 7 8 - 1
+2025-01-03 03:00:14,426 - INFO - Processing START command with config_a: A: ECOND - 1 2 3 4 - 1, config_b: B: ECOND - 5 6 7 8 - 1
+2025-01-03 03:00:14,457 - INFO - Script is already running.
+2025-01-03 03:00:17,415 - INFO - Received command: KILL
+2025-01-03 03:00:17,415 - INFO - Processing KILL command.
+2025-01-03 03:00:17,428 - INFO - Killed process with PID 70247.
+2025-01-03 03:00:21,585 - INFO - Received command: START,A: ECOND - 1 2 3 4 - 1,B: ECOND - 5 6 7 8 - 1
+2025-01-03 03:00:21,586 - INFO - Processing START command with config_a: A: ECOND - 1 2 3 4 - 1, config_b: B: ECOND - 5 6 7 8 - 1
+2025-01-03 03:00:21,602 - INFO - Started script with command: nohup ./run_robot_chip_2hexa.py --trays_a 1,2,3,4 --trays_b 5,6,7,8 --chip_number_start_a 1 --chip_number_start_b 1 &
+2025-01-03 03:09:50,894 - INFO - Received command: PING
+2025-01-03 03:09:50,896 - INFO - Sending PONG response.
+2025-01-03 03:09:52,998 - INFO - Received command: INIT_SOCKET_A
+2025-01-03 03:09:53,043 - INFO - Stopping job locally with PID 70581.
+2025-01-03 03:09:54,054 - INFO - Restarting the Hexa job locally.
+2025-01-03 03:09:54,065 - INFO - INIT_SOCKET_A result: OK_A
+2025-01-03 03:09:56,100 - INFO - Received command: INIT_SOCKET_B
+2025-01-03 03:09:56,137 - INFO - Stopping job locally with PID 71314.
+2025-01-03 03:09:57,147 - INFO - Restarting the Hexa job locally.
+2025-01-03 03:09:57,158 - INFO - INIT_SOCKET_B result: OK_B
+2025-01-03 03:09:59,198 - INFO - Received command: CHECK_GPIB
+2025-01-03 03:09:59,237 - INFO - GPIB server is running.
+2025-01-03 03:09:59,237 - INFO - CHECK_GPIB result: GPIB_OK
+2025-01-03 03:10:03,023 - INFO - Received command: START,A: ECOND - 1 2 3 4 - 50,B: ECOND - 5 6 7 8 - 30
+2025-01-03 03:10:03,023 - INFO - Processing START command with config_a: A: ECOND - 1 2 3 4 - 50, config_b: B: ECOND - 5 6 7 8 - 30
+2025-01-03 03:10:03,040 - INFO - Script is already running.
+2025-01-03 03:10:05,931 - INFO - Received command: KILL
+2025-01-03 03:10:05,932 - INFO - Processing KILL command.
+2025-01-03 03:10:05,945 - INFO - Killed process with PID 70625.
+2025-01-03 03:10:08,943 - INFO - Received command: START,A: ECOND - 1 2 3 4 - 50,B: ECOND - 5 6 7 8 - 30
+2025-01-03 03:10:08,945 - INFO - Processing START command with config_a: A: ECOND - 1 2 3 4 - 50, config_b: B: ECOND - 5 6 7 8 - 30
+2025-01-03 03:10:08,962 - INFO - Started script with command: nohup ./run_robot_chip_2hexa.py --trays_a 1,2,3,4 --trays_b 5,6,7,8 --chip_number_start_a 50 --chip_number_start_b 30 &
+2025-01-03 03:20:18,201 - INFO - Closing serial connection...
+2025-01-03 03:20:18,208 - INFO - Exiting the server script.
+2025-01-03 15:18:56,429 - INFO - Server script started.
+2025-01-03 15:18:56,431 - INFO - Starting command listener.
+2025-01-03 15:18:56,431 - WARNING - Could not connect to /dev/ttyUSB0. Retrying in 3 seconds...
+2025-01-03 15:18:57,913 - INFO - Exiting the server script.
+2025-01-03 15:18:59,996 - INFO - Server script started.
+2025-01-03 15:18:59,997 - INFO - Starting command listener.
+2025-01-03 15:18:59,997 - WARNING - Could not connect to /dev/ttyUSB0. Retrying in 3 seconds...
+2025-01-03 15:19:00,640 - INFO - Exiting the server script.
+2025-01-03 15:19:21,254 - INFO - Server script started.
+2025-01-03 15:19:21,256 - INFO - Starting command listener.
+2025-01-03 15:19:21,265 - INFO - Connected to /dev/tty.usbserial-110
+2025-01-03 15:20:59,887 - INFO - Closing serial connection...
+2025-01-03 15:20:59,896 - INFO - Exiting the server script.
+2025-01-03 15:24:40,788 - INFO - Server script started.
+2025-01-03 15:24:40,789 - INFO - Starting command listener.
+2025-01-03 15:24:40,796 - INFO - Connected to /dev/tty.usbserial-110
+2025-01-03 15:24:43,153 - INFO - Closing serial connection...
+2025-01-03 15:24:43,155 - INFO - Exiting the server script.
+2025-01-03 15:29:55,919 - INFO - Server script started.
+2025-01-03 15:29:55,920 - INFO - Starting command listener.
+2025-01-03 15:29:55,930 - INFO - Connected to /dev/tty.usbserial-110
+2025-01-03 15:29:56,335 - INFO - Closing serial connection...
+2025-01-03 15:29:56,337 - INFO - Exiting the server script.
+2025-01-03 15:29:57,998 - INFO - Server script started.
+2025-01-03 15:29:57,999 - INFO - Starting command listener.
+2025-01-03 15:29:58,006 - INFO - Connected to /dev/tty.usbserial-110
+2025-01-03 15:30:00,666 - ERROR - Device error: [Errno 6] Device not configured. Attempting to reconnect...
+2025-01-03 15:30:00,667 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 15:30:03,684 - INFO - Connected to /dev/tty.usbserial-110
+2025-01-03 15:30:22,642 - INFO - Received command:                                                                                    
+2025-01-03 15:30:22,643 - WARNING - Unknown command received:                                                                                    
+2025-01-03 15:30:36,617 - ERROR - Device error: [Errno 6] Device not configured. Attempting to reconnect...
+2025-01-03 15:30:36,618 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 15:30:39,623 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 15:30:42,628 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 15:30:45,632 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 15:30:48,632 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 15:34:36,579 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 15:34:39,587 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 15:34:42,597 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 15:34:45,597 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 15:50:15,502 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 15:50:18,509 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 16:06:18,314 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 16:06:21,322 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 16:22:00,097 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 16:31:48,493 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 16:31:51,495 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 16:31:54,501 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 16:31:57,512 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 16:32:00,516 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 16:32:03,517 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 16:32:06,524 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 16:34:33,298 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 16:34:36,308 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 16:34:39,317 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 16:34:42,320 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 16:34:45,321 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 16:34:48,330 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 16:34:51,339 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 16:34:54,344 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 16:34:57,354 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 16:35:00,361 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 16:35:03,364 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 16:35:06,372 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 16:35:09,373 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 16:35:12,377 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 16:35:15,382 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 16:35:18,384 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 16:35:21,390 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 16:35:24,398 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 16:35:27,406 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 16:37:24,733 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 16:37:27,781 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 16:37:30,802 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 16:37:33,807 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 16:37:36,814 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 16:37:39,821 - WARNING - Could not connect to /dev/tty.usbserial-110. Retrying in 3 seconds...
+2025-01-03 16:37:40,806 - INFO - Exiting the server script.
+2025-01-03 16:46:50,336 - INFO - Server script started.
+2025-01-03 16:46:50,337 - INFO - Starting command listener.
+2025-01-03 16:46:50,353 - INFO - Connected to /dev/tty.usbserial-110
+2025-01-03 16:46:54,985 - INFO - Received command: SORT,1_2_3_6_7_8-4_5-1_1,
+2025-01-03 16:49:09,750 - INFO - Closing serial connection...
+2025-01-03 16:49:09,753 - INFO - Exiting the server script.
+2025-01-03 16:49:10,618 - INFO - Server script started.
+2025-01-03 16:49:10,619 - INFO - Starting command listener.
+2025-01-03 16:49:10,624 - INFO - Connected to /dev/tty.usbserial-110
+2025-01-03 16:49:15,148 - INFO - Received command: SORT,1_2_3_6_7_8-4_5-1_1,
+2025-01-03 16:49:15,148 - INFO - Processing SORT command with config_a: 1_2_3_6_7_8-4_5-1_1
+2025-01-03 16:49:15,174 - INFO - Started script with command: nohup ./chip_sorting.py --input_trays 1,2,3,6,7,8 --output_trays 4,5 --chips_outputs 1,1 &
+2025-01-03 16:49:59,922 - INFO - Closing serial connection...
+2025-01-03 16:49:59,924 - INFO - Exiting the server script.
+2025-01-03 16:50:00,621 - INFO - Server script started.
+2025-01-03 16:50:00,622 - INFO - Starting command listener.
+2025-01-03 16:50:00,628 - INFO - Connected to /dev/tty.usbserial-110
+2025-01-03 16:50:02,747 - INFO - Received command: SORT,1_2_3_6_7_8-4_5-1_1,
+2025-01-03 16:50:02,747 - INFO - Processing SORT command with config_a: 1_2_3_6_7_8-4_5-1_1
+2025-01-03 16:50:02,766 - INFO - Started script with command: nohup ./chip_sorting.py --input_trays 1,2,3,6,7,8 --output_trays 4,5 --chips_outputs 1,1 &
+2025-01-03 16:50:31,828 - INFO - Received command: SORT,1_2_3_6_7_8-4_5-1_1,
+2025-01-03 16:50:31,829 - INFO - Processing SORT command with config_a: 1_2_3_6_7_8-4_5-1_1
+2025-01-03 16:50:31,846 - INFO - Started script with command: nohup ./chip_sorting.py --input_trays 1,2,3,6,7,8 --output_trays 4,5 --chips_outputs 1,1 &
+2025-01-03 16:50:44,086 - INFO - Closing serial connection...
+2025-01-03 16:50:44,089 - INFO - Exiting the server script.
+2025-01-03 16:50:45,395 - INFO - Server script started.
+2025-01-03 16:50:45,396 - INFO - Starting command listener.
+2025-01-03 16:50:45,400 - INFO - Connected to /dev/tty.usbserial-110
+2025-01-03 16:50:51,029 - INFO - Received command: SORT,1_2_3_6_7_8-4_5-1_1,
+2025-01-03 16:50:51,029 - INFO - Processing SORT command with config_a: 1_2_3_6_7_8-4_5-1_1
+2025-01-03 16:50:51,046 - INFO - Started script with command: nohup ./chip_sorting.py --input_trays 1,2,3,6,7,8 --output_trays 4,5 --chips_outputs 1,1 &
+2025-01-03 16:51:24,571 - INFO - Closing serial connection...
+2025-01-03 16:51:24,572 - INFO - Exiting the server script.
+2025-01-03 16:51:50,901 - INFO - Server script started.
+2025-01-03 16:51:50,902 - INFO - Starting command listener.
+2025-01-03 16:51:50,908 - INFO - Connected to /dev/tty.usbserial-110
+2025-01-03 16:51:55,749 - INFO - Received command: SORT,1_2_3_6_7_8-4_5-1_1,
+2025-01-03 16:51:55,749 - INFO - Processing SORT command with config_a: 1_2_3_6_7_8-4_5-1_1
+2025-01-03 16:51:55,765 - INFO - Started script with command: nohup ./chip_sorting.py --input_trays 1,2,3,6,7,8 --output_trays 4,5 --chips_outputs 1,1 &
+2025-01-03 16:52:56,851 - INFO - Closing serial connection...
+2025-01-03 16:52:56,860 - INFO - Exiting the server script.
+2025-01-03 16:55:27,140 - INFO - Server script started.
+2025-01-03 16:55:27,141 - INFO - Starting command listener.
+2025-01-03 16:55:27,146 - INFO - Connected to /dev/tty.usbserial-110
+2025-01-03 16:55:40,998 - ERROR - Received non-UTF-8 message: b'\x0c9P6NB\xe2\xe1\xce\xa7\xed\xd5\xa1\xcaN\xa5\xc5-\xc8\xa8)J\xfe\xb4*\xf4\xb4\xb4SORT,1_2_3_6_7_8-4_5-1_1\n'
+2025-01-03 16:55:53,277 - INFO - Received command: SORT,1_2_3_6_7_8-4_5-1_1
+2025-01-03 16:56:20,798 - INFO - Received command: SORT,1_2_3_6_7_8-4_5-1_1
+2025-01-03 16:57:00,116 - INFO - Closing serial connection...
+2025-01-03 16:57:00,118 - INFO - Exiting the server script.
+2025-01-03 16:57:09,004 - INFO - Server script started.
+2025-01-03 16:57:09,005 - INFO - Starting command listener.
+2025-01-03 16:57:09,011 - INFO - Connected to /dev/tty.usbserial-110
+2025-01-03 16:57:18,278 - INFO - Received command: SORT,1_2_3_6_7_8-4_5-1_1
+2025-01-03 16:58:09,757 - INFO - Closing serial connection...
+2025-01-03 16:58:09,760 - INFO - Exiting the server script.
+2025-01-03 16:58:11,672 - INFO - Server script started.
+2025-01-03 16:58:11,673 - INFO - Starting command listener.
+2025-01-03 16:58:11,677 - INFO - Connected to /dev/tty.usbserial-110
+2025-01-03 16:58:15,160 - INFO - Received command: SORT,1_2_3_6_7_8-4_5-1_1
+2025-01-03 16:58:15,160 - INFO - Processing SORT command with config_a: 1_2_3_6_7_8-4_5-1_1
+2025-01-03 16:58:15,180 - INFO - Started script with command: nohup ./chip_sorting.py --input_trays 1,2,3,6,7,8 --output_trays 4,5 --chips_outputs 1,1 &
+2025-01-03 16:58:36,187 - ERROR - Received non-UTF-8 message: b'!\x8dv\xce\xd4\xe8\xd1\xce\xa7!\xd5\xedU\x08\xa6\xfa\xbc1\n'
+2025-01-03 16:58:48,353 - ERROR - Received non-UTF-8 message: b'\x95\xaa\xd1j\xff\x14:`\xe4'
+2025-01-03 16:58:52,591 - INFO - Received command: SORT,1_2_3_6_7_8-4_5-1_1
+2025-01-03 16:58:52,592 - INFO - Processing SORT command with config_a: 1_2_3_6_7_8-4_5-1_1
+2025-01-03 16:58:52,608 - INFO - Script is already running.
+2025-01-03 16:59:26,201 - INFO - Closing serial connection...
+2025-01-03 16:59:26,204 - INFO - Exiting the server script.
+2025-01-03 16:59:26,954 - INFO - Server script started.
+2025-01-03 16:59:26,955 - INFO - Starting command listener.
+2025-01-03 16:59:26,961 - INFO - Connected to /dev/tty.usbserial-110
+2025-01-03 16:59:31,632 - INFO - Received command: SORT,1_2_3_6_7_8-4_5-1_1
+2025-01-03 16:59:31,632 - INFO - Processing SORT command with config_a: 1_2_3_6_7_8-4_5-1_1
+2025-01-03 16:59:31,648 - INFO - Script is already running.
+2025-01-03 16:59:35,656 - INFO - Received command: KILL_SORT
+2025-01-03 16:59:35,657 - INFO - Processing KILL command.
+2025-01-03 16:59:35,671 - INFO - Killed process with PID 71346.
+2025-01-03 17:02:00,884 - INFO - Closing serial connection...
+2025-01-03 17:02:00,887 - INFO - Exiting the server script.
+2025-01-03 17:02:01,516 - INFO - Server script started.
+2025-01-03 17:02:01,517 - INFO - Starting command listener.
+2025-01-03 17:02:01,522 - INFO - Connected to /dev/tty.usbserial-110
+2025-01-03 17:02:05,195 - INFO - Received command: SORT,1_2_3_6_7_8-4_5-1_1
+2025-01-03 17:02:05,195 - INFO - Processing SORT command with config_a: 1_2_3_6_7_8-4_5-1_1
+2025-01-03 17:02:05,212 - INFO - Script is already running.
+2025-01-03 17:02:08,298 - INFO - Received command: KILL_SORT
+2025-01-03 17:02:08,298 - INFO - Processing KILL_SORT command.
+2025-01-03 17:02:08,311 - INFO - Killed process with PID 96781.
+2025-01-03 17:02:12,314 - INFO - Received command: SORT,1_2_3_6_7_8-4_5-1_1
+2025-01-03 17:02:12,314 - INFO - Processing SORT command with config_a: 1_2_3_6_7_8-4_5-1_1
+2025-01-03 17:02:12,328 - INFO - Started script with command: nohup ./chip_sorting.py --input_trays 1,2,3,6,7,8 --output_trays 4,5 --chips_outputs 1,1 &
+2025-01-03 17:02:45,260 - INFO - Closing serial connection...
+2025-01-03 17:02:45,263 - INFO - Exiting the server script.
